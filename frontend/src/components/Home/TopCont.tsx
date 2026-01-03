@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Header } from "../Layout/Header";
 
 export const TopCont: React.FC = () => {
   const handleClick = () => {
@@ -7,6 +8,7 @@ export const TopCont: React.FC = () => {
   };
   return (
     <div className="w-screen h-screen overflow-hidden relative">
+      <Header />
       <div className="absolute left-0 right-0 bottom-0 h-150 bg-linear-to-t from-[#000000] to-transparent" />
       <video
         src="/media/videos/ankit.mp4"
