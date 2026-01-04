@@ -11,7 +11,7 @@ export const TopCont: React.FC = () => {
       <Header />
       <div className="absolute left-0 right-0 bottom-0 h-150 bg-linear-to-t from-[#000000] to-transparent" />
       <video
-        src="/media/videos/ankit.mp"
+        src="/media/videos/ankit.mp4"
         autoPlay
         muted
         loop
