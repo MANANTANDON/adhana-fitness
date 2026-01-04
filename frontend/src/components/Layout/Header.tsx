@@ -36,7 +36,7 @@ export const Header: React.FC = () => {
             ))}
           </div>
           <div
-            className="text-zinc-100 text-xl cursor-pointer bg-zinc-200/20 px-1 py-0.5 rounded-[100px]"
+            className="text-zinc-100 text-xl cursor-pointer bg-zinc-200/20 px-1 py-0.5 rounded-[100px] max-[500px]:flex hidden"
             onClick={() => setMenuOpen(true)}
           >
             􀌇
@@ -73,7 +73,7 @@ export const Header: React.FC = () => {
             􀆄
           </div>
         </div>
-        <div className=" flex flex-col gap-5 my-4.5">
+        <div className=" flex flex-col gap-5 my-4.5 px-2.5">
           {MENU.map((item, key) => (
             <div
               key={key}
