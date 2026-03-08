@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Header } from "../Layout/Header";
+import { Header } from "../LayoutTwo/Header";
 
 export const TopCont: React.FC = () => {
   const handleClick = () => {

@@ -1,11 +1,13 @@
-import { SecondCont } from "@/components/Home/SecondCont";
-import { TopCont } from "@/components/Home/TopCont";
+import { Home } from "@/components/Home/Home";
+import { Layout } from "@/components/Layout/Layout";
+import React from "react";
 
-export default function Home() {
+const Index: React.FC = () => {
   return (
-    <div className="text-center bg-zinc-100">
-      <TopCont />
-      <SecondCont />
-    </div>
+    <Layout>
+      <Home />
+    </Layout>
   );
-}
+};
+
+export default Index;
